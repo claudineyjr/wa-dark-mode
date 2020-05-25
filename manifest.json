@@ -2,5 +2,9 @@
     "name": "WhatsApp Web Dark Mode",
     "version": "1.0",
     "description": "Habilitando modo escuro do whatsapp de maneira fácil e rápida",
+    "content_scripts": [{
+      "js": ["dark-mode.js"],
+      "matches": ["https://web.whatsapp.com/*"]
+    }],
     "manifest_version": 2
   }
